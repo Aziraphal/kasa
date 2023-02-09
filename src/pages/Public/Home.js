@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from './Layout';
 
 
 const Home = () => {
     return (
         <div className='Home'>  
-            <Layout />
+            Accueil fonctionne !
         </div>
     );
 };
