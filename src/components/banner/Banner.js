@@ -1,5 +1,11 @@
-function Banner() {
-    return <h1>Kasa</h1>
-}
+import React from 'react';
 
-export default Banner
+const Banner = () => {
+    return (
+        <div>
+            Banner
+        </div>
+    );
+};
+
+export default Banner;
