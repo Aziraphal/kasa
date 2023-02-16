@@ -1,8 +1,9 @@
 import React from 'react';
+import './gallery.css';
 
 const Gallery = () => {
     return (
-        <div>
+        <div className='homeGallery'>
             Milieu de page
         </div>
     );

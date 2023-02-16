@@ -1,21 +1,24 @@
 .HomeBanner {
-    margin-top: 80px;
-}
-
-.KasaBanner {
+    padding-top: 68px;
+    padding-bottom: 43px;
+  }
+  
+  .KasaBanner {
+    max-width: 85%;
     border: none;
     border-radius: 25px;
-    
-}
+    margin: 0 90px;
+    background-image: linear-gradient();
+  }
 
 .BannerText {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    font-size: 17px;
+    font-size: 24px;
   }
 
 
