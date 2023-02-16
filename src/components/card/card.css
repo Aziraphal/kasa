@@ -3,8 +3,6 @@
 border-radius: 10px;
     cursor: pointer;
     height: 340px;
-    overflow: hidden;
-    position: relative;
     transition: box-shadow .2s ease-in-out;
     width: 30%;
 }

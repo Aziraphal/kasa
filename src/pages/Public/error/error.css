@@ -1,0 +1,16 @@
+.errorInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.errorTitle{
+    font-weight: 700;
+    font-size: 286px;
+    color: #FF6060;
+}
