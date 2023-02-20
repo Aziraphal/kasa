@@ -1,12 +1,12 @@
-import React from 'react';
 import './card.css';
+import { Link } from 'react-router-dom';
 
-const Card = () => {
-    return (
-        <div className='homeCard'>
-            <h3>Titre de la location</h3>
-        </div>
-    );
-};
+export default function Card({id, title, cover}) {
 
-export default Card;
+	return (
+		<Link to={`/Hebergement/${id}`} className="galleryCard">
+			<img className='cardImage' src={cover} alt={title} />
+			<h3>{title}</h3>	
+		</Link>
+	)
+}

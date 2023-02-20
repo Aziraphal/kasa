@@ -4,11 +4,13 @@
   }
   
   .KasaBanner {
-    max-width: 85%;
+    display: flex;
+    width: 87%;
     border: none;
     border-radius: 25px;
-    margin: 0 90px;
-    background-image: linear-gradient();
+    margin: 0 auto;
+    background-color: black;
+    opacity: 1;
   }
 
 .BannerText {

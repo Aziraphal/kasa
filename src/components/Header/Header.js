@@ -9,7 +9,7 @@ const header = () => {
                 <div> 
                     <img src={Logo} alt="Kasa, location d'appartement"></img>
                 </div>
-                <nav>
+                <nav className='navBar'>
                     <ul>
                         <li><Link to={"/home"}>Accueil</Link></li>
                         <li><Link to={"/apropos"}>A propos</Link></li>

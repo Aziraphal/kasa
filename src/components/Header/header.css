@@ -1,30 +1,34 @@
 header{
     display: flex;
-    flex-direction:row;
     justify-content: space-between;
     align-items: center;
     height: 68px;
     max-width: 85%;
-    margin: 0 auto;
-    margin-top: 40px;
-}
-
-ul{
-    list-style-type: none;
+    margin: 40px auto 0;
+    }
     
-}
-
-ul li{
-    display: inline-block;
-}
-
-a{
+    nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    }
+    
+    nav ul li{
+    margin-right: 57px;
+    }
+    
+    nav ul li:last-child{
+    margin-right: 0;
+    }
+    
+    nav ul li a{
     text-decoration: none;
     color: #FF6060;
     font-size: 24px;
-    margin-left: 57px;
-}
-
-a:hover{
+    font-weight: 500;
+    }
+    
+    nav ul li a:hover{
     text-decoration: underline;
-}
+    }
