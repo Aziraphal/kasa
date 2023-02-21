@@ -1,8 +1,7 @@
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './Home';
-import Apropos from './Apropos';
+import Apropos from './apropos/Apropos';
 import Hebergment from './Hebergement';
 import Error from './error/Error'
 

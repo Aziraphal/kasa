@@ -1,17 +1,23 @@
-import React from 'react';
-import './banner.css';
-import Img from '../../assets/IMG.png';
-const Banner = () => {
-    return (
-        <div className='HomeBanner'>
-            <img src={Img} alt="côte, falaise" className='KasaBanner'></img>
-            <div className='BannerText'>
-            <h1>
-                Chez vous, partout et ailleurs
-            </h1>
-        </div>
-        </div>
-    );
-};
+import './banner.css'
+import { useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
-export default Banner;
+export default function Banner() {
+
+	const [aboutPage, setAboutPage] = useState(false);
+
+	const location = useLocation();
+	
+	useEffect(() => {
+		if(location.pathname === '/apropos'){
+			setAboutPage(true)
+		};
+		// eslint-disable-next-line
+	}, [])
+
+	return (
+		<section className={aboutPage ? 'bannerApropos' : 'banner'}>
+			{!aboutPage && <p>Chez vous, partout et ailleurs</p>}
+		</section>
+	)
+}

@@ -1,27 +1,36 @@
-.HomeBanner {
-    padding-top: 68px;
-    padding-bottom: 43px;
-  }
-  
-  .KasaBanner {
-    display: flex;
-    width: 87%;
-    border: none;
-    border-radius: 25px;
-    margin: 0 auto;
-    background-color: black;
-    opacity: 1;
-  }
+.banner {
+  position: relative;
+  display: flex;
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/IMGHOME.png');
+  background-position: center;
+  background-size: cover;
+  height: 171px;
+  padding: 20px;
+  max-width: 85%;
+  margin: 43px auto;
+}
 
-.BannerText {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-size: 24px;
-  }
+.bannerApropos {
+  position: relative;
+  display: flex;
+  border-radius: 25px;
+  height: 223px;
+  max-width: 85%;
+  margin: 43px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/AproposBanner.png');
+  background-position: center;
+  background-size: cover;
+}
 
+.banner p {
+  color: #FFFFFF;
+  font-size: clamp(20px,4vw,48px);
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 19%;
+  left: 21%;
+}
 
-  
