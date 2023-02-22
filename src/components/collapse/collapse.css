@@ -51,7 +51,7 @@
     height: 0;
 }
 
-.accomodation_collapse {
+.aboutMainCollapse {
     display: flex;
     justify-content: space-between;
     gap: 70px;
@@ -59,7 +59,4 @@
     width: 95%;
 }
 
-.accomodation_collapse .accomodation_collapse_item {
-    width: 50%;
-}
 
