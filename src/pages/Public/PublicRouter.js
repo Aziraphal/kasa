@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from './Home';
 import Apropos from './apropos/Apropos';
-import Hebergment from './Hebergement';
+import Hebergement from './hebergement/Hebergement';
 import Error from './error/Error'
 
 const PublicRouter = () => {
@@ -13,9 +13,8 @@ const PublicRouter = () => {
 
             <Route path='/home' element={<Home />} />
             <Route path='/apropos' element={<Apropos />} />
-            <Route path='/hebergement' element={<Hebergment />} />
+            <Route path='/hebergement' element={<Hebergement />} />
 
-            
             <Route path='*' element={<Error />} />
             </Routes>
         </div>

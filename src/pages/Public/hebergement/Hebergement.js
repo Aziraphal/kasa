@@ -1,9 +1,11 @@
-import React from 'react';
+import "./hebergement.css";
+
+
 
 const Hebergement = () => {
     return (
         <div>
-            Hébergement fonctionne !
+           Hébergement fonctionne ! 
         </div>
     );
 };
