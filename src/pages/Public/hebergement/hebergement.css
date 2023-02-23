@@ -1,0 +1,8 @@
+.contenuHebergement {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #FF6060;
+    width: 85%;
+    margin: 0 auto;
+  }

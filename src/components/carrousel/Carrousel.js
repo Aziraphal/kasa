@@ -20,19 +20,19 @@ export default function Slider({imageSlider}) {
     }
 
     return (
-        <section style={{backgroundImage : `url(${imageSlider[currentIndex]})`}} className='carousel'>
+        <section style={{backgroundImage : `url(${imageSlider[currentIndex]})`}} className='carrousel'>
             {imageSlider.length > 1 && 
                 <>
                     <img 
                         className='carrouselArrowRight' 
                         src={ArrowRight} 
-                        alt="show next slider" 
+                        alt="Slider suivant" 
                         onClick={nextSlide}
                     />
                     <img 
                         className='carrouselArrowLeft' 
                         src={ArrowLeft} 
-                        alt="show previous slider" 
+                        alt="Slider précédent" 
                         onClick={prevSlide}
                     />
                     <p className='slideCount'>{currentIndex + 1} / {imageSlider.length}</p>
