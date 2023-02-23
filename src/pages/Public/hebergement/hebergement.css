@@ -6,3 +6,98 @@
     width: 85%;
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 650px) {
+    .contenuHebergement {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    }
+    }
+    
+    .infoHebergement {
+    display: flex;
+    flex-direction: column;
+    
+    font-weight: 500;
+    font-size: 14px;
+    }
+    
+    .infoHebergement button {
+    display: inline;
+    padding: 5px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #FF6060 ;
+    }
+    
+    .infoHebergement button:hover {
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+    }
+    
+    .infoHebergement div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    }
+    
+    .hoteHebergement {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+    
+    @media screen and (max-width: 650px) {
+    .hoteHebergement {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    }
+    }
+    
+    .hoteHebergement div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 0 10px;
+    }
+    
+    @media screen and (max-width: 500px) {
+    .hoteHebergement div {
+    gap: 0 5px;
+    }
+    }
+    
+    .infoHoteHebergement {
+    align-self: center;
+    flex-direction: column;
+    }
+    
+    .hoteHebergement img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    }
+    
+    .hoteHebergementNote {
+    display: flex;
+    gap: 10px;
+    }
+    
+    .hoteHebergementNote img {
+    width: 30px;
+    height: 30px;
+    }
+    
+    @media screen and (max-width: 650px) {
+    .hoteHebergementNote img {
+    width: 20px;
+    height: 20px;
+    }
+    }
