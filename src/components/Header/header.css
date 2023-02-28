@@ -1,34 +1,57 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 68px;
-    max-width: 85%;
+    max-width: 87%;
     margin: 40px auto 0;
     }
       
-    nav ul{
+    nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     }
     
-    nav ul li{
+    nav ul li {
     margin-right: 57px;
     }
     
-    nav ul li:last-child{
+    nav ul li:last-child {
     margin-right: 0;
     }
     
-    nav ul li a{
+    nav ul li a {
     text-decoration: none;
     color: #FF6060;
-    font-size: 24px;
+    font-size: clamp(12px, 2.5vw, 24px);
     font-weight: 500;
     }
     
-    nav ul li a:hover{
+    nav ul li a:hover {
     text-decoration: underline;
+    }
+
+    @media screen and (max-width: 650px) {
+        header {
+            max-width: 100%;
+            margin: 20px;
+        }
+        header img {
+            height: 47px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        .navBar {
+            height: 47px;
+        }
+        nav ul {
+            align-items: center;
+        }
+        nav ul li {
+            margin-right: 10px;
+        }
     }

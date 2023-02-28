@@ -13,7 +13,6 @@ const PublicRouter = () => {
             <Route path='/home' element={<Home />} />
             <Route path='/apropos' element={<Apropos />} />
             <Route path='/hebergement/:id' element={<Hebergement />} />
-            
             <Route path='*' element={<Error />} />
             </Routes>
         </div>

@@ -4,7 +4,7 @@ import './header.css';
 import Logo from '../../assets/LOGO.png';
 const header = () => {
     return (
-        <div className='Header'>
+        <div className='header'>
             <header>
                 <div> 
                     <img src={Logo} alt="Kasa, location d'appartement"></img>

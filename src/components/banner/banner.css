@@ -25,12 +25,30 @@
 
 .banner p {
   color: #FFFFFF;
-  font-size: clamp(20px,4vw,48px);
+  font-size: clamp(24px,4vw,48px);
   font-weight: 500;
   display: flex;
   justify-content: flex-end;
   position: absolute;
   top: 19%;
   left: 21%;
+}
+
+.banner br {
+  display: none;
+}
+
+@media screen and (max-width: 650px){
+  .banner {
+    height: 111px;
+    margin: 0 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/IMGresponsive.png') ;
+  }
+  .banner p{
+    position: unset;
+  }
+  .banner br{
+    display: initial;
+  }
 }
 
