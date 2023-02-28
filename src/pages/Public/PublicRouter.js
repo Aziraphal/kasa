@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-
 import Home from './Home';
 import Apropos from './apropos/Apropos';
 import Hebergement from './hebergement/Hebergement';
@@ -14,8 +13,7 @@ const PublicRouter = () => {
             <Route path='/home' element={<Home />} />
             <Route path='/apropos' element={<Apropos />} />
             <Route path='/hebergement/:id' element={<Hebergement />} />
-
-
+            
             <Route path='*' element={<Error />} />
             </Routes>
         </div>

@@ -18,9 +18,16 @@
     .infoHebergement {
     display: flex;
     flex-direction: column;
-    
     font-weight: 500;
     font-size: 14px;
+    }
+
+    .infoHebergement h1{
+      margin-bottom: 0px;
+    }
+
+    .infoHebergement p{
+      margin-bottom: 20px;
     }
     
     .infoHebergement button {
@@ -47,7 +54,7 @@
     .hoteHebergement {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     }
     
     @media screen and (max-width: 650px) {

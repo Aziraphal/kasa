@@ -23,23 +23,21 @@
     transition: all 0.2s ease-in-out;
 }
 
-.collapseTitle .arrowUp {
+.collapseTitle .arrowDown {
     transform: rotate(0deg);
 }
 
-.collapseTitle .arrowDown {
+.collapseTitle .arrowUp {
     transform: rotate(180deg);
 }
 
 .collapseContent {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
     letter-spacing: 1px;
     visibility: visible;
     opacity: 1;
     height: auto;
-    padding: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
     font-size: clamp(12px, 2vw, 16px);
     color: #FF6060;
     transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out, height 0.2s ease-in-out;
@@ -52,9 +50,6 @@
 }
 
 .aboutMainCollapse {
-    display: flex;
-    justify-content: space-between;
-    gap: 70px;
     margin: 30px auto;
     width: 85%;
 }

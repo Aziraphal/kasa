@@ -8,18 +8,21 @@ import Collapse from "../../../components/collapse/Collapse";
 import Footer from "../../../components/footer/Footer";
 import greyStar from '../../../assets/grey_star.png';
 import redStar from '../../../assets/red_star.png';
+
 export default function Hebergement() {
 const [imageSlider, setImageSlider] = useState([]);
     const idHebergement = useParams('id').id;
     const dataHebergementActuel = data.filter(data => data.id === idHebergement);
     useEffect(() => {
         const dataHebergementActuel = data.filter(data => data.id === idHebergement);
+        
         setImageSlider(dataHebergementActuel[0].pictures);
     }, [idHebergement]);
     const name = dataHebergementActuel[0].host.name.split(' '); 
     const rating = dataHebergementActuel[0].rating;
     const description  = dataHebergementActuel[0].description;
     const equipments = dataHebergementActuel[0].equipments;
+
     return (
         <div>
             <Header />

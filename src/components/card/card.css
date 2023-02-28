@@ -6,7 +6,6 @@
     position: relative;
     width: 30%;
     transition: transform 0.3s ease-in-out;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .galleryCard:hover{
@@ -18,6 +17,7 @@
     object-fit: cover;
     object-position: center;
     height: 100%;
+    filter: brightness(80%);
 }
 
 .galleryCard h3{
@@ -31,3 +31,5 @@
     z-index: 20;
     opacity: 1;
 }
+
+
