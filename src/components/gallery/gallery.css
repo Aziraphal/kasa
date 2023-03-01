@@ -1,4 +1,4 @@
-.homeGallery{
+.homeGallery {
     align-items: center;
     background-color: #f7f7f7;
     border-radius: 25px;
@@ -15,7 +15,8 @@
 @media screen and (max-width: 650px) {
     .homeGallery{
         background-color: white;
-        padding-top: 20px;
+        padding: 20px;
         gap: 20px;
+        width: auto;
     }
 }

@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
+    width: 91%;
     }
     }
     
@@ -22,11 +23,11 @@
     font-size: 14px;
     }
 
-    .infoHebergement h1{
+    .infoHebergement h1 {
       margin-bottom: 0px;
     }
 
-    .infoHebergement p{
+    .infoHebergement p {
       margin-bottom: 20px;
     }
     

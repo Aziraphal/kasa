@@ -26,6 +26,6 @@ export default function Collapse({title, content}) {
                     }
                 </div> 
             </div>
-        </>
+         </>
     )
 }

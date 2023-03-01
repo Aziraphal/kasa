@@ -1,4 +1,4 @@
-.footer{
+footer {
     text-align: center;
     display: flex;
     justify-content: flex-end;
@@ -9,7 +9,19 @@
     width: 100%;
 }
 
-.copyright{
+.copyright {
     color: white;
     font-size: 24px;
+}
+
+@media screen and (max-width: 650px) {
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright {
+        font-size: 12px ;
+    }
 }

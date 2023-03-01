@@ -1,29 +1,49 @@
-.errorInfo{
+.errorInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 170px;
 }
 
-.errorTitle{
+.errorTitle {
     font-weight: 700;
     font-size: 286px;
     color: #FF6060;
     margin: 0
 }
 
-.errorContent{
+.errorContent {
     color: #FF6060;
     font-size: 36px;
     font-weight: 500;
+    align-self: center;
 }
 
-.errorReturn{
+.errorReturn {
     text-decoration-line: underline;
     font-size: 18px;
     font-weight: 500;
     padding-top: 182px;
     padding-bottom: 156px;
     color: #FF6060;
+}
+
+@media screen and (max-width: 650px) {
+    .errorInfo {
+        margin-top: 175px;
+    }
+    .errorTitle {
+        font-size: 96px;
+    }
+    .errorContent {
+        font-size: 18px;
+        line-height: 25px;
+        width: 175px;
+        margin-top: 0;
+    }
+    .errorReturn {
+        font-size: 14px;
+        padding-top: 130px;
+    }
 }

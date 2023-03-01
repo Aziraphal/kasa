@@ -8,12 +8,12 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.galleryCard:hover{
+.galleryCard:hover {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
     transform: scale(1.1);
 }
 
-.galleryCard img{
+.galleryCard img {
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -21,11 +21,11 @@
     filter: brightness(80%);
 }
 
-.galleryCard h3{
+.galleryCard h3 {
     bottom: 0px;
     color: #fff;
     font-size: clamp(12px,3vw,18px);
-    font-weight: 500;
+    font-weight: 600;
     left: 10px;
     position: absolute;
     right: 90px;
@@ -33,14 +33,17 @@
     opacity: 1;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .galleryCard{
     width: 100%;    
 }}
-@media screen and (max-width: 650px){
-    .galleryCard{
-    height: 255px;
-    
-}}
+@media screen and (max-width: 650px) {
+    .galleryCard {
+    height: 255px;  
+}
+    .galleryCard h3 {
+    right: 200px;
+    }
+}
 
 

@@ -43,8 +43,21 @@
     font-size: clamp(14px, 2vw, 18px);
 }
 
-@media screen and (max-width: 650px){
-    .slideCount{
+@media screen and (max-width: 650px) {
+    .slideCount {
         visibility: hidden;
+    }
+    .carrousel {
+        width: 91%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .carrouselArrowLeft {
+        height: 30px;
+    }
+
+    .carrouselArrowRight {
+        height: 30px;
     }
 }

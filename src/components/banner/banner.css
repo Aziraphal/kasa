@@ -7,7 +7,7 @@
   background-size: cover;
   height: 171px;
   padding: 20px;
-  max-width: 85%;
+  width: 85%;
   margin: 43px auto;
 }
 
@@ -16,7 +16,7 @@
   display: flex;
   border-radius: 25px;
   height: 223px;
-  max-width: 85%;
+  width: 87%;
   margin: 43px auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/AproposBanner.png');
   background-position: center;
@@ -31,24 +31,30 @@
   justify-content: flex-end;
   position: absolute;
   top: 19%;
-  left: 21%;
+  left: 23%;
 }
 
 .banner br {
   display: none;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
   .banner {
     height: 111px;
-    margin: 0 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/IMGresponsive.png') ;
+    width: 81%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/IMGresponsive.png');
   }
-  .banner p{
+  .banner p {
     position: unset;
   }
-  .banner br{
+  .banner br {
     display: initial;
+  }
+  .bannerApropos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/gustavo-alves-YOXSC4zRcxw-unsplash\ 1-resp.png');
+    width: 94%;
   }
 }
 
