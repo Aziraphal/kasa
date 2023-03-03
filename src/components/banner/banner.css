@@ -55,6 +55,7 @@
   .bannerApropos {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/gustavo-alves-YOXSC4zRcxw-unsplash\ 1-resp.png');
     width: 94%;
+    margin-top: 0;
   }
 }
 

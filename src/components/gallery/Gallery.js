@@ -1,5 +1,5 @@
 import './gallery.css';
-import data from '../../data/data';
+import data from '../../data/data.json';
 import Card from '../card/Card';
 
 const Gallery = () => {
