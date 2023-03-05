@@ -2,7 +2,7 @@ import "./hebergement.css";
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import data from "../../../data/data.json";
-import Header from "../../../components/header/Header";
+import Header from "../../../components/header/header";
 import SlideShow from "../../../components/carrousel/Carrousel";
 import Collapse from "../../../components/collapse/Collapse";
 import Footer from "../../../components/footer/Footer";
