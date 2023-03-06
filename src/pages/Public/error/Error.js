@@ -1,6 +1,6 @@
 import React from 'react';
 import './error.css';
-import Header from '../../../components/header/Header';
+import Header from '../../../components/headers/Header';
 import { Link } from 'react-router-dom';
 import Footer from '../../../components/footer/Footer';
 const Error = () => {
