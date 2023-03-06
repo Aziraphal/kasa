@@ -1,4 +1,4 @@
-import Header from '../../../components/headers/Header';
+import Header from '../../../components/header/Header';
 import Banner from '../../../components/banner/Banner';
 import Collapse from '../../../components/collapse/Collapse';
 import Footer from '../../../components/footer/Footer';
